@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Content Include="Controllers\PedidoController.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Anotai.Api.Command\Anotai.Api.Command.csproj" />
     <ProjectReference Include="..\Anotai.Api.Core\Anotai.Api.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>

@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Models\" />
     <Folder Include="Entities\Enums\" />
-    <Folder Include="Entities\Views\" />
   </ItemGroup>
 
 </Project>
