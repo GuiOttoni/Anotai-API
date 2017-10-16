@@ -4,36 +4,31 @@ using System.Text;
 
 namespace Anotai.Api.Core.Entities.Models
 {
-    public class Pedido
+    public class Pagamento
     {
         /// <summary>
         /// 
         /// </summary>
-        public int IdPedido { get; set; }
+        int CodigoCartao { get; set; }
 
         /// <summary>
         /// 
         /// </summary>
-        public Garcom Garcom { get; set; }
+        int Comanda { get; set; }
 
         /// <summary>
         /// 
         /// </summary>
-        public Mesa IdMesas { get; set; }
-        
-        /// <summary>
-        /// 
-        /// </summary>
-        public Estabelecimento Estabelecimento { get; set; }
+        string StatusPagamento { get; set; }
 
         /// <summary>
         /// 
         /// </summary>
-        public Cartao Cartao { get; set; }
+        decimal ValorTotal { get; set; }
 
         /// <summary>
         /// 
         /// </summary>
-        public Consumidor Consumidor { get; set; }
+        int CodigoEC { get; set; }
     }
 }

@@ -6,6 +6,14 @@ namespace Anotai.Api.Database
 {
     public class StoredProcedures
     {
-        public static readonly String INSERT_PEDIDO = "INSERT_PEDIDO";
+        /// <summary>
+        /// 
+        /// </summary>
+        public static readonly String InsertPagamento = "InsertPagamento";
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static readonly String GetPagamentoInfo = "GetPagamentoInfo";
     }
 }
